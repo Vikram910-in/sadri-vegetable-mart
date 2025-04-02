@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ऑर्डर करें</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>अपना ऑर्डर दें</h1>
+    </header>
+
+    <section>
+        <form action="https://formspree.io/f/your-email" method="POST">
+            <label>नाम:</label>
+            <input type="text" name="name" required>
+
+            <label>फोन नंबर:</label>
+            <input type="text" name="phone" required>
+
+            <label>सब्ज़ियाँ (लिखें):</label>
+            <textarea name="order" required></textarea>
+
+            <button type="submit">ऑर्डर सबमिट करें</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sadri Vegetable Mart | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
